@@ -1,0 +1,3 @@
+steps:
+- name: 'gcloud'
+  args: ['functions', 'deploy', 'cf-test-cloudbuild', '--source=.']
